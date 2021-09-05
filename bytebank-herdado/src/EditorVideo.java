@@ -3,7 +3,7 @@ public class EditorVideo extends Funcionario{
 
 	
 	public double getBonificacao() {
-		double salary = super.getBonificacao() + 100;
+		double salary = 150.0;
 		System.out.println("Chamando o metodo de bonificacao do EDITOR DE VIDEO: " + salary);
 		return salary;
 	}
